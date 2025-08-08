@@ -1,0 +1,193 @@
+name: ✨ Solicitação de Funcionalidade
+description: Sugira uma nova funcionalidade ou melhoria
+title: "[FEATURE] "
+labels: ["enhancement", "needs-discussion"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 Obrigado por sua sugestão!
+        Ideias da comunidade são fundamentais para evolução dos nossos templates e ferramentas.
+        
+  - type: dropdown
+    id: category
+    attributes:
+      label: 📂 Categoria
+      description: Em qual área se aplica a funcionalidade?
+      options:
+        - Template Hardware (estrutura, componentes)
+        - Template Software (backend, frontend, mobile)
+        - Documentação (READMEs, tutorials, guias)
+        - Ferramentas (scripts, automação, CI/CD)
+        - GitHub (templates, actions, workflows)
+        - Infraestrutura (servidores, ambientes)
+        - Educacional (materiais didáticos, exemplos)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 🎯 Prioridade
+      description: Quão importante é esta funcionalidade?
+      options:
+        - 🔴 Alta - Essencial para o projeto
+        - 🟡 Média - Melhoria importante
+        - 🟢 Baixa - Nice to have
+        - 💡 Sugestão - Para consideração futura
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 🎯 Problema ou Necessidade
+      description: Que problema esta funcionalidade resolveria?
+      placeholder: |
+        Ex: Atualmente é difícil configurar projetos IoT porque não temos templates específicos para ESP32 com conectividade WiFi...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 💡 Solução Proposta
+      description: Como você imagina que isso deveria funcionar?
+      placeholder: |
+        Ex: Criar um template especializado para ESP32 que inclua:
+        - Configuração WiFi automática
+        - Estrutura para MQTT
+        - Exemplos de sensores IoT
+        - Dashboard web básico
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: 🎯 Casos de Uso
+      description: Em quais situações isso seria útil?
+      placeholder: |
+        Ex: 
+        - Projetos de monitoramento ambiental
+        - Sistemas de automação residencial  
+        - Coleta de dados de sensores remotos
+        - Disciplinas de IoT e sistemas embarcados
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔄 Alternativas Consideradas
+      description: Que outras soluções você considerou?
+      placeholder: |
+        Ex:
+        - Usar template genérico e adaptar (muito trabalhoso)
+        - Criar do zero (não reutiliza conhecimento)
+        - Usar templates externos (não seguem nossos padrões)
+    validations:
+      required: false
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: 🛠️ Sugestão de Implementação
+      description: Como isso poderia ser implementado? (técnico)
+      placeholder: |
+        Ex:
+        - Criar diretório esp32-iot/ no template-hardware
+        - Incluir bibliotecas padrão no platformio.ini
+        - Adicionar exemplos de configuração WiFi
+        - Criar documentação específica
+    validations:
+      required: false
+
+  - type: textarea
+    id: resources
+    attributes:
+      label: 📚 Recursos Necessários
+      description: Que recursos seriam necessários?
+      placeholder: |
+        Ex:
+        - Tempo de desenvolvimento: ~2 semanas
+        - Hardware para testes: ESP32, sensores
+        - Conhecimento: WiFi, MQTT, web development
+        - Documentação: tutorials, exemplos
+    validations:
+      required: false
+
+  - type: textarea
+    id: benefits
+    attributes:
+      label: 🏆 Benefícios Esperados
+      description: Como isso melhoraria a experiência dos usuários?
+      placeholder: |
+        Ex:
+        - Redução de 70% no tempo de setup inicial
+        - Projetos IoT mais robustos e padronizados
+        - Maior adoção de práticas profissionais
+        - Facilita aprendizado para iniciantes
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: 📖 Exemplos de Referência
+      description: Existem implementações similares que você conhece?
+      placeholder: |
+        Ex:
+        - PlatformIO templates para ESP32
+        - Arduino IDE examples
+        - ESP32.com tutorials
+        - Projetos open source similares
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 📎 Informações Adicionais
+      description: Mockups, diagramas, links relevantes
+      placeholder: |
+        Cole aqui ou anexe:
+        - Mockups da interface
+        - Diagramas de arquitetura
+        - Links para referências
+        - Screenshots de inspiração
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: 🤝 Contribuição
+      description: Como você pode ajudar com esta funcionalidade?
+      options:
+        - label: Posso ajudar no design/planejamento
+          required: false
+        - label: Posso contribuir com código
+          required: false
+        - label: Posso ajudar na documentação
+          required: false
+        - label: Posso testar a implementação
+          required: false
+        - label: Posso fornecer feedback durante desenvolvimento
+          required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 📋 Checklist
+      description: Confirme que você seguiu as diretrizes
+      options:
+        - label: Verifiquei se esta funcionalidade já não foi solicitada
+          required: true
+        - label: A sugestão está alinhada com objetivos educacionais
+          required: true
+        - label: Considerei o impacto nos usuários existentes
+          required: true
+        - label: Estou disposto a participar da discussão
+          required: true

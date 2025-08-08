@@ -1,0 +1,154 @@
+name: 🐛 Relatório de Bug
+description: Reporte um bug ou problema técnico
+title: "[BUG] "
+labels: ["bug", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🔍 Antes de reportar
+        - [ ] Pesquisei issues similares
+        - [ ] Consultei a documentação
+        - [ ] Tentei soluções básicas de troubleshooting
+        
+  - type: dropdown
+    id: category
+    attributes:
+      label: 📂 Categoria
+      description: Qual tipo de projeto/componente está afetado?
+      options:
+        - Hardware (PCB, componentes, circuitos)
+        - Firmware (código embarcado)
+        - Software (aplicações, scripts)
+        - Documentação (README, tutorials)
+        - Infraestrutura (CI/CD, deploymnet)
+        - Ferramentas (KiCad, IDE, simuladores)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: ⚠️ Severidade
+      description: Qual o impacto do problema?
+      options:
+        - 🔴 Crítico - Sistema não funciona
+        - 🟠 Alto - Funcionalidade importante quebrada
+        - 🟡 Médio - Comportamento inesperado
+        - 🟢 Baixo - Problema menor ou cosmético
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Descrição do Problema
+      description: Descreva claramente o que está acontecendo
+      placeholder: |
+        Ex: O sensor DHT22 não retorna valores válidos quando conectado no pino 2 do Arduino Uno...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: ✅ Comportamento Esperado
+      description: O que deveria acontecer?
+      placeholder: |
+        Ex: O sensor deveria retornar temperatura entre 20-30°C e umidade entre 40-60%...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: ❌ Comportamento Observado
+      description: O que realmente acontece?
+      placeholder: |
+        Ex: O sensor retorna sempre -999 para temperatura e umidade...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 🔄 Passos para Reproduzir
+      description: Como reproduzir o problema?
+      placeholder: |
+        1. Conectar DHT22 no pino 2
+        2. Carregar código exemplo
+        3. Abrir serial monitor
+        4. Observar valores retornados
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 🖥️ Ambiente
+      description: Informações sobre hardware, software e versões
+      placeholder: |
+        - Hardware: Arduino Uno R3
+        - Sensor: DHT22 (AM2302)
+        - IDE: Arduino IDE 2.2.1
+        - Biblioteca: DHT sensor library 1.4.4
+        - SO: Windows 11
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempts
+    attributes:
+      label: 🔧 O que já tentei
+      description: Quais soluções você já tentou?
+      placeholder: |
+        - Testei em outro pino (3, 4, 5)
+        - Verifiquei conexões com multímetro
+        - Testei outro sensor DHT22
+        - Reinstalei a biblioteca
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 📊 Logs e Códigos de Erro
+      description: Cole aqui mensagens de erro, logs ou output relevante
+      render: shell
+      placeholder: |
+        Serial Monitor Output:
+        Temperature: -999.00°C
+        Humidity: -999.00%
+        DHT22 read error!
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 📎 Informações Adicionais
+      description: Screenshots, fotos do circuito, esquemáticos, etc.
+      placeholder: |
+        Cole aqui ou anexe:
+        - Screenshots da tela
+        - Fotos do circuito montado  
+        - Esquemáticos relevantes
+        - Datasheet excerpts
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 📋 Checklist
+      description: Confirme que você seguiu as diretrizes
+      options:
+        - label: Li o guia de contribuição
+          required: true
+        - label: Verifiquei se não é uma duplicata
+          required: true
+        - label: Forneci informações suficientes para reproduzir
+          required: true
+        - label: Estou disposto a ajudar nos testes da correção
+          required: false

@@ -1,0 +1,332 @@
+name: 📊 Relatório de Laboratório
+description: Submeter relatório ou documentação de atividade prática
+title: "[LAB] "
+labels: ["lab-report", "documentation"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🔬 Relatório de Atividade Prática
+        Use este template para submeter relatórios de laboratório, experimentos ou atividades práticas.
+        
+  - type: dropdown
+    id: discipline
+    attributes:
+      label: 📚 Disciplina
+      description: Em qual disciplina foi realizada a atividade?
+      options:
+        - Projeto Integrador I
+        - Projeto Integrador II
+        - Sistemas Ubíquos Embarcados
+        - Eletrônica Digital
+        - Microcontroladores
+        - Sistemas Embarcados
+        - Internet das Coisas
+        - Instrumentação Eletrônica
+        - Processamento Digital de Sinais
+        - Outras (especificar nos comentários)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: lab_type
+    attributes:
+      label: 🧪 Tipo de Atividade
+      description: Que tipo de atividade prática foi realizada?
+      options:
+        - Experimento de Laboratório
+        - Projeto Prático
+        - Prototipagem
+        - Teste de Conceito
+        - Análise de Circuito
+        - Programação Embarcada
+        - Integração de Sistema
+        - Validação de Design
+    validations:
+      required: true
+
+  - type: input
+    id: lab_number
+    attributes:
+      label: 🔢 Número/Nome da Atividade
+      description: Identificação da atividade (ex: Lab 3, Experimento DHT22)
+      placeholder: Ex: Laboratório 3 - Comunicação I2C com Sensores
+    validations:
+      required: true
+
+  - type: textarea
+    id: team
+    attributes:
+      label: 👥 Equipe
+      description: Membros da equipe que participaram
+      placeholder: |
+        - João Silva (Matrícula: 12345)
+        - Maria Santos (Matrícula: 67890)
+        - Pedro Costa (Matrícula: 54321)
+    validations:
+      required: true
+
+  - type: textarea
+    id: objectives
+    attributes:
+      label: 🎯 Objetivos
+      description: Objetivos da atividade prática
+      placeholder: |
+        - Implementar comunicação I2C entre Arduino e sensor DHT22
+        - Validar leituras de temperatura e umidade
+        - Comparar com medições manuais de referência
+        - Documentar protocolo de comunicação
+    validations:
+      required: true
+
+  - type: textarea
+    id: materials
+    attributes:
+      label: 🛠️ Materiais e Equipamentos
+      description: Hardware, software e ferramentas utilizados
+      placeholder: |
+        Hardware:
+        - Arduino Uno R3
+        - Sensor DHT22 (AM2302)
+        - Protoboard
+        - Jumpers
+        - Resistor 10kΩ (pull-up)
+        
+        Software:
+        - Arduino IDE 2.2.1
+        - Biblioteca DHT sensor library 1.4.4
+        - Serial Plotter
+        
+        Instrumentos:
+        - Multímetro Fluke 87V
+        - Osciloscópio Rigol DS1054Z
+        - Termômetro de referência
+    validations:
+      required: true
+
+  - type: textarea
+    id: methodology
+    attributes:
+      label: 🔬 Metodologia
+      description: Procedimentos realizados passo a passo
+      placeholder: |
+        1. Montagem do circuito:
+           - Conectar DHT22 no pino 2 do Arduino
+           - Adicionar resistor pull-up de 10kΩ
+           - Verificar conexões com multímetro
+        
+        2. Programação:
+           - Carregar biblioteca DHT
+           - Implementar código de leitura
+           - Configurar output serial
+        
+        3. Testes:
+           - Verificar funcionamento básico
+           - Coletar 50 amostras
+           - Comparar com termômetro de referência
+        
+        4. Análise:
+           - Calcular precisão e exatidão
+           - Identificar fontes de erro
+           - Documentar limitações
+    validations:
+      required: true
+
+  - type: textarea
+    id: results
+    attributes:
+      label: 📊 Resultados Obtidos
+      description: Dados coletados, medições, observações
+      placeholder: |
+        Resultados das medições:
+        - Temperatura média: 24.3°C (±0.2°C)
+        - Temperatura de referência: 24.1°C
+        - Erro absoluto: 0.2°C
+        - Erro relativo: 0.8%
+        
+        Umidade média: 58.5% (±1.2%)
+        Umidade de referência: 57.8%
+        Erro absoluto: 0.7%
+        Erro relativo: 1.2%
+        
+        Observações:
+        - Primeiro valor sempre incorreto (inicialização)
+        - Estabilização após 10 segundos
+        - Oscilações durante mudanças bruscas
+    validations:
+      required: true
+
+  - type: textarea
+    id: analysis
+    attributes:
+      label: 🔍 Análise e Discussão
+      description: Interpretação dos resultados, problemas encontrados
+      placeholder: |
+        Análise dos resultados:
+        - Precisão dentro do esperado (±2°C conforme datasheet)
+        - Erro sistemático pequeno, possivelmente devido a auto-aquecimento
+        - Tempo de resposta adequado para aplicação (10s)
+        
+        Problemas encontrados:
+        - Leituras inválidas intermitentes (5% dos casos)
+        - Sensibilidade a interferência eletromagnética
+        - Necessidade de filtragem de dados
+        
+        Melhorias propostas:
+        - Implementar filtro de mediana
+        - Adicionar timeout para leituras inválidas
+        - Usar cabo blindado para conexões
+    validations:
+      required: true
+
+  - type: textarea
+    id: conclusions
+    attributes:
+      label: ✅ Conclusões
+      description: Síntese dos aprendizados e objetivos atingidos
+      placeholder: |
+        - Comunicação I2C implementada com sucesso
+        - Sensor DHT22 adequado para aplicações de monitoramento básico
+        - Precisão suficiente para maioria dos casos de uso
+        - Necessidade de tratamento de erros na implementação final
+        - Protocolo I2C compreendido na teoria e prática
+        - Experiência valiosa com debugging de hardware/software
+    validations:
+      required: true
+
+  - type: textarea
+    id: code
+    attributes:
+      label: 💻 Código Implementado
+      description: Código principal utilizado no experimento
+      render: cpp
+      placeholder: |
+        #include <DHT.h>
+        
+        #define DHT_PIN 2
+        #define DHT_TYPE DHT22
+        
+        DHT dht(DHT_PIN, DHT_TYPE);
+        
+        void setup() {
+          Serial.begin(9600);
+          dht.begin();
+          Serial.println("DHT22 Test Started");
+        }
+        
+        void loop() {
+          float temp = dht.readTemperature();
+          float hum = dht.readHumidity();
+          
+          if (isnan(temp) || isnan(hum)) {
+            Serial.println("DHT22 read error!");
+            return;
+          }
+          
+          Serial.print("Temperature: ");
+          Serial.print(temp);
+          Serial.print("°C, Humidity: ");
+          Serial.print(hum);
+          Serial.println("%");
+          
+          delay(2000);
+        }
+    validations:
+      required: false
+
+  - type: textarea
+    id: schematics
+    attributes:
+      label: 📐 Esquemáticos/Diagramas
+      description: Esquemas de ligação, diagramas de blocos
+      placeholder: |
+        Cole aqui ou anexe:
+        - Esquemático do circuito
+        - Diagrama de blocos do sistema
+        - Fotos da montagem
+        - Capturas do osciloscópio
+        - Gráficos de resultados
+    validations:
+      required: false
+
+  - type: textarea
+    id: references
+    attributes:
+      label: 📚 Referências
+      description: Datasheets, manuais, artigos consultados
+      placeholder: |
+        - DHT22 Datasheet (Aosong Electronics)
+        - Arduino Reference (arduino.cc)
+        - "Practical Electronics for Inventors" - Scherz & Monk
+        - Application Note AN001: I2C Communication Best Practices
+    validations:
+      required: false
+
+  - type: textarea
+    id: difficulties
+    attributes:
+      label: ⚠️ Dificuldades Encontradas
+      description: Problemas enfrentados e como foram resolvidos
+      placeholder: |
+        1. Problema: Sensor não respondia inicialmente
+           Solução: Verificação das conexões e adição de pull-up
+        
+        2. Problema: Leituras inconsistentes
+           Solução: Aguardar inicialização e implementar retry
+        
+        3. Problema: Interferência na comunicação
+           Solução: Melhor roteamento dos fios e filtros
+    validations:
+      required: false
+
+  - type: textarea
+    id: improvements
+    attributes:
+      label: 🚀 Sugestões de Melhoria
+      description: Como melhorar o experimento ou implementação
+      placeholder: |
+        Para o experimento:
+        - Testar múltiplos sensores simultaneamente
+        - Comparar diferentes bibliotecas DHT
+        - Avaliar consumo de energia
+        
+        Para a implementação:
+        - Adicionar display LCD local
+        - Implementar log em cartão SD
+        - Criar interface web para monitoramento
+        - Adicionar alertas por limites
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: completeness
+    attributes:
+      label: 📋 Checklist de Completude
+      description: Confirme que o relatório está completo
+      options:
+        - label: Todos os objetivos foram abordados
+          required: true
+        - label: Resultados estão devidamente documentados
+          required: true
+        - label: Análise crítica foi realizada
+          required: true
+        - label: Código está funcional e comentado
+          required: false
+        - label: Esquemáticos/fotos estão incluídos
+          required: false
+        - label: Referências estão citadas adequadamente
+          required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 📎 Informações Adicionais
+      description: Comentários extras, anexos, observações
+      placeholder: |
+        - Links para repositórios de código
+        - Videos demonstrativos
+        - Dados brutos coletados
+        - Observações para próximas turmas
+    validations:
+      required: false

@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussões da Comunidade
+    url: https://github.com/orgs/UFSC-Araranguá-ENC/discussions
+    about: Para discussões gerais, perguntas e compartilhamento de ideias
+  - name: 📚 Documentação Completa
+    url: https://github.com/UFSC-Araranguá-ENC/.github/wiki
+    about: Wiki com documentação detalhada, tutoriais e guias
+  - name: 🆘 Suporte Técnico
+    url: https://github.com/UFSC-Araranguá-ENC/.github/blob/main/.github/SUPPORT.md
+    about: Como obter ajuda técnica e suporte para projetos
+  - name: 📧 Contato Institucional
+    url: mailto:coordenacao.enc@contato.ufsc.br
+    about: Para questões administrativas e acadêmicas oficiais
+  - name: 🔒 Reportar Vulnerabilidade
+    url: https://github.com/UFSC-Araranguá-ENC/.github/security/advisories/new
+    about: Para reportar problemas de segurança de forma privada

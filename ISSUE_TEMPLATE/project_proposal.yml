@@ -1,0 +1,308 @@
+name: 🎓 Proposta de Projeto
+description: Propor novo projeto acadêmico ou de pesquisa
+title: "[PROJECT] "
+labels: ["project-proposal", "academic"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎯 Proposta de Novo Projeto
+        Use este template para propor projetos acadêmicos, TCCs, projetos de extensão ou pesquisa.
+        
+  - type: dropdown
+    id: type
+    attributes:
+      label: 📚 Tipo de Projeto
+      description: Qual categoria de projeto você está propondo?
+      options:
+        - TCC (Trabalho de Conclusão de Curso)
+        - Projeto Integrador I
+        - Projeto Integrador II  
+        - Sistemas Ubíquos Embarcados
+        - Projeto de Extensão
+        - Iniciação Científica (PIBIC/PIBITI)
+        - Projeto de Disciplina
+        - Pesquisa de Mestrado/Doutorado
+        - Projeto Colaborativo
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: 🔬 Área Principal
+      description: Qual a área técnica predominante?
+      options:
+        - Internet das Coisas (IoT)
+        - Sistemas Embarcados
+        - Robótica e Automação
+        - Inteligência Artificial/ML
+        - Processamento de Sinais
+        - Comunicações e Redes
+        - Eletrônica de Potência
+        - Sistemas de Controle
+        - Instrumentação e Sensores
+        - Computação de Alto Desempenho
+        - Segurança Cibernética
+        - Interface Humano-Computador
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: 📋 Título do Projeto
+      description: Nome do projeto (pode ser provisório)
+      placeholder: Ex: Sistema de Monitoramento Ambiental Inteligente para Campus Universitário
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: 📝 Resumo Executivo
+      description: Descrição concisa do projeto em 2-3 parágrafos
+      placeholder: |
+        Ex: Este projeto propõe o desenvolvimento de um sistema distribuído de monitoramento ambiental para o campus da UFSC Araranguá. O sistema utilizará uma rede de sensores IoT para coletar dados de temperatura, umidade, qualidade do ar e ruído em tempo real...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 🎯 Problema/Motivação
+      description: Que problema o projeto resolve? Por que é importante?
+      placeholder: |
+        Ex: 
+        - Falta de dados ambientais em tempo real no campus
+        - Necessidade de monitoramento para sustentabilidade
+        - Oportunidade de aplicar IoT em contexto real
+        - Base para pesquisas em qualidade ambiental
+    validations:
+      required: true
+
+  - type: textarea
+    id: objectives
+    attributes:
+      label: 🎯 Objetivos
+      description: Objetivos gerais e específicos do projeto
+      placeholder: |
+        Geral:
+        - Desenvolver sistema completo de monitoramento ambiental
+        
+        Específicos:
+        - Projetar rede de sensores wireless
+        - Implementar plataforma de coleta e armazenamento
+        - Criar dashboard para visualização de dados
+        - Desenvolver algoritmos de análise e alertas
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: 📏 Escopo do Projeto
+      description: O que está incluído e excluído do projeto
+      placeholder: |
+        Incluído:
+        - Design de hardware para nós sensores
+        - Desenvolvimento de firmware embarcado
+        - Plataforma web para visualização
+        - Análise básica de dados
+        
+        Excluído:
+        - Aplicativo mobile
+        - Machine learning avançado
+        - Integração com sistemas externos
+        - Comercialização
+    validations:
+      required: true
+
+  - type: textarea
+    id: methodology
+    attributes:
+      label: 🔬 Metodologia
+      description: Como o projeto será desenvolvido?
+      placeholder: |
+        1. Revisão bibliográfica e estado da arte
+        2. Especificação de requisitos e arquitetura
+        3. Desenvolvimento iterativo em sprints:
+           - Sprint 1: Prototipagem de sensores
+           - Sprint 2: Comunicação e rede
+           - Sprint 3: Backend e banco de dados
+           - Sprint 4: Frontend e dashboard
+        4. Testes e validação
+        5. Documentação e apresentação
+    validations:
+      required: true
+
+  - type: textarea
+    id: technologies
+    attributes:
+      label: 🛠️ Tecnologias Propostas
+      description: Hardware, software, frameworks, ferramentas
+      placeholder: |
+        Hardware:
+        - ESP32 para nós sensores
+        - Sensores: DHT22, MQ-135, MEMS microphone
+        - Gateway: Raspberry Pi 4
+        
+        Software:
+        - Firmware: Arduino/ESP-IDF
+        - Backend: Node.js + Express
+        - Database: InfluxDB
+        - Frontend: React.js
+        - Infraestrutura: Docker, GitHub Actions
+    validations:
+      required: true
+
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: 📦 Entregáveis
+      description: O que será produzido ao final do projeto
+      placeholder: |
+        - Hardware funcional (10 nós sensores + gateway)
+        - Código fonte completo (firmware + software)
+        - Documentação técnica detalhada
+        - Manual de instalação e operação
+        - Relatório final de desenvolvimento
+        - Apresentação de defesa
+        - Dados coletados durante período de teste
+    validations:
+      required: true
+
+  - type: textarea
+    id: timeline
+    attributes:
+      label: 📅 Cronograma Preliminar
+      description: Principais marcos e prazos
+      placeholder: |
+        Mês 1-2: Revisão bibliográfica e especificação
+        Mês 3-4: Desenvolvimento de hardware e firmware
+        Mês 5-6: Desenvolvimento de software
+        Mês 7-8: Integração e testes
+        Mês 9-10: Documentação e apresentação
+        
+        Marcos importantes:
+        - Apresentação 1 (final mês 4)
+        - Apresentação 2 (final mês 8)  
+        - Defesa final (final mês 10)
+    validations:
+      required: true
+
+  - type: textarea
+    id: resources
+    attributes:
+      label: 📚 Recursos Necessários
+      description: Hardware, software, licenças, orçamento
+      placeholder: |
+        Hardware (~R$ 2.000):
+        - 10x ESP32 (R$ 500)
+        - Sensores diversos (R$ 800)
+        - Raspberry Pi 4 (R$ 400)
+        - Fonte, gabinetes, cabos (R$ 300)
+        
+        Software:
+        - Licenças: Gratuitas/open source
+        - Servidor cloud: R$ 50/mês
+        
+        Outros:
+        - Acesso aos laboratórios
+        - Orientação técnica
+    validations:
+      required: true
+
+  - type: textarea
+    id: team
+    attributes:
+      label: 👥 Equipe Proposta
+      description: Quem participará e com quais responsabilidades
+      placeholder: |
+        - João Silva (Matrícula: 12345) - Líder, hardware e firmware
+        - Maria Santos (Matrícula: 67890) - Backend e banco de dados
+        - Pedro Costa (Matrícula: 54321) - Frontend e visualização
+        
+        Orientação:
+        - Prof. Dr. Ana Oliveira (Orientadora)
+        - Prof. Me. Carlos Lima (Co-orientador)
+    validations:
+      required: true
+
+  - type: textarea
+    id: risks
+    attributes:
+      label: ⚠️ Riscos e Mitigações
+      description: Principais riscos e como lidar com eles
+      placeholder: |
+        - Atraso na chegada de componentes → Comprar com antecedência
+        - Dificuldades técnicas → Buscar mentoria extra
+        - Problemas de comunicação wireless → Ter plano B com cabo
+        - Conflitos de agenda da equipe → Definir horários fixos
+    validations:
+      required: false
+
+  - type: textarea
+    id: innovation
+    attributes:
+      label: 💡 Aspectos Inovadores
+      description: O que há de novo ou diferente neste projeto?
+      placeholder: |
+        - Uso de edge computing para processamento local
+        - Algoritmo de auto-calibração de sensores
+        - Interface adaptativa baseada no usuário
+        - Integração com dados meteorológicos externos
+    validations:
+      required: false
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: 🌟 Impacto Esperado
+      description: Benefícios académicos, sociais, tecnológicos
+      placeholder: |
+        Acadêmico:
+        - Experiência prática em projeto completo
+        - Publicação em conferência nacional
+        - Base para futuros projetos
+        
+        Social:
+        - Dados ambientais para comunidade
+        - Consciência sobre sustentabilidade
+        
+        Tecnológico:
+        - Solução replicável para outras instituições
+        - Contribuição open source
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: requirements
+    attributes:
+      label: 📋 Requisitos Atendidos
+      description: Confirme que o projeto atende aos critérios
+      options:
+        - label: Está alinhado com objetivos do curso/disciplina
+          required: true
+        - label: É tecnicamente viável no prazo disponível
+          required: true
+        - label: Tem relevância acadêmica ou social
+          required: true
+        - label: Equipe tem competências necessárias ou disposição para aprender
+          required: true
+        - label: Recursos necessários são acessíveis
+          required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 📎 Informações Adicionais
+      description: Referências, anexos, observações
+      placeholder: |
+        - Links para projetos similares
+        - Papers de referência
+        - Mockups ou diagramas iniciais
+        - Contatos de possíveis parceiros
+    validations:
+      required: false
