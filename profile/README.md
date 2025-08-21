@@ -1,18 +1,18 @@
-# 🎓 UFSC Araranguá - Engenharia de Computação
+# UFSC Araranguá - Engenharia de Computação
 
 <div align="center">
   <img src="https://identidade.ufsc.br/wp-content/themes/brasilGovInterno/img/brasao_site_ufsc.svg?ver=1746558968" alt="UFSC Logo" width="100"/>
   <h2>Repositório Oficial da Comunidade Acadêmica</h2>
 </div>
 
-## 📚 Sobre
+## Sobre
 
 Bem-vindo ao repositório oficial da comunidade acadêmica do curso de Engenharia de Computação da Universidade Federal de Santa Catarina - Campus Araranguá! Este espaço foi criado para centralizar e compartilhar projetos desenvolvidos por alunos e professores do nosso curso, com ênfase especial em projetos integradores e sistemas embarcados.
 
-## 🎯 Objetivos
+## Objetivos
 
 - Centralizar projetos acadêmicos em um único local, especialmente das disciplinas de Projeto Integrador I, II e Projeto de Sistemas Ubíquos Embarcados
-- Criar uma biblioteca de referência para códigos de sensores, atuadores e sistemas embarcados
+- Criar bibliotecas de referência para códigos de sensores, atuadores e sistemas embarcados
 - Compartilhar documentações detalhadas de implementações e integrações
 - Promover a colaboração entre alunos e professores através de projetos práticos
 - Facilitar o reuso de código e aprendizado com projetos anteriores
@@ -20,21 +20,7 @@ Bem-vindo ao repositório oficial da comunidade acadêmica do curso de Engenhari
 - Criar um portfólio dos trabalhos desenvolvidos na instituição
 - Incentivar boas práticas de desenvolvimento, documentação e versionamento
 
-## 🤖 Destaque para Projetos Integradores
-
-Nossa comunidade tem um foco especial em:
-- **Projeto Integrador I**: Primeiros passos com sistemas embarcados e sensores
-- **Projeto Integrador II**: Desenvolvimento de soluções completas e integradas
-- **Projeto de Sistemas Ubíquos Embarcados**: Implementações IoT e sistemas distribuídos
-
-Aqui você encontrará:
-- Códigos de exemplo para diversos sensores e atuadores
-- Bibliotecas testadas e documentadas
-- Esquemas de conexão e diagramas
-- Documentação de problemas comuns e soluções
-- Projetos completos de referência
-
-## 🔍 Categorias de Projetos
+##  Categorias de Projetos
 
 ### 📖 Projetos Integradores e Sistemas Embarcados
 - Projetos com Arduino, ESP32, Raspberry Pi e outras plataformas
@@ -62,7 +48,7 @@ Aqui você encontrará:
 - Projetos interdisciplinares
 - Desenvolvimento para comunidade
 
-## 🤝 Como Contribuir
+## Como Contribuir
 
 1. Você deve ser membro da comunidade acadêmica da UFSC Araranguá
 2. Entre em contato com os administradores para solicitar acesso
@@ -72,12 +58,12 @@ Aqui você encontrará:
 
 ## 📌 Diretrizes Gerais
 
-- Todo projeto deve incluir um README.md completo
+- Todo projeto deve incluir um README.md e ser muito bem documentado
 - Os projetos devem seguir o padrão de nome `<SEMESTRE_MATERIA_NOME-DO-PROJETO>` exemplo : `2024.1_DEC0010_ESTACAO-METEOROLOGICA`
 - Documentação deve estar em inglês (preferível) ou portugues
 - Código deve seguir padrões de qualidade e boas práticas
 - Respeitar propriedade intelectual e licenças
-- Manter informações sensíveis protegidas
+- Manter informações sensíveis protegidas (variáveis de ambiente, etc.)
 
 ## 🔗 Links Úteis
 
