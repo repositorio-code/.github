@@ -2,7 +2,7 @@ import os
 import requests
 
 ORG_NAME = "repositorio-code"
-GITHUB_TOKEN = os.environ.get("README_GENERATOR_TOKEN")
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 
 def get_repos():
     """Busca todos os repositórios da organização usando a API do GitHub."""
