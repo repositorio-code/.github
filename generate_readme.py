@@ -73,7 +73,7 @@ def main():
         repos = get_repos()
         new_readme_content = format_readme(repos)
         
-        with open("README.md", "w", encoding="utf-8") as f:
+        with open("PROJECTS_HUB.md", "w", encoding="utf-8") as f:
             f.write(new_readme_content)
         
         print("README.md atualizado com sucesso!")
