@@ -8,6 +8,14 @@ Os repositórios seguem o padrão: `SEMESTRE_MATERIA_NOME-PROJETO`
 
 Exemplo: `2025.1_DEC0021_Monitoramento-Zabbix-ESP32`
 
+## Projetos do Semestre 2025.2
+
+### DEC0013
+
+- **[Estacao Meteorologica](https://github.com/repositorio-code/2025.2_DEC0013_ESTACAO-METEOROLOGICA)** (`2025.2_DEC0013_ESTACAO-METEOROLOGICA`)
+  Nenhuma descrição fornecida.
+
+
 ## Projetos do Semestre 2025.1
 
 ### DEC0013
@@ -185,4 +193,4 @@ Os seguintes repositórios não seguem o padrão de nomenclatura estabelecido:
 
 ---
 
-*Última atualização: 13/10/2025 às 03:41:56 UTC*
+*Última atualização: 20/10/2025 às 03:47:45 UTC*
