@@ -16,6 +16,12 @@ Exemplo: `2025.1_DEC0021_Monitoramento-Zabbix-ESP32`
   Nenhuma descrição fornecida.
 
 
+### DEC0021
+
+- **[Agentes Autonomos Embarcados](https://github.com/repositorio-code/2025.2_DEC0021_AGENTES-AUTONOMOS-EMBARCADOS)** (`2025.2_DEC0021_AGENTES-AUTONOMOS-EMBARCADOS`)
+  Avanços na área de AIoT abrem oportunidade para o desenvolvimento de aplicações capazes de tomar decisões na borda, protegendo dados e contextos sensíveis. Este repositório apresenta uma proposta de arquitetura de um sistema multi-agentes embarcados em ESP32, um microcontrolador com reconhecidas restrições de recursos.
+
+
 ## Projetos do Semestre 2025.1
 
 ### DEC0013
@@ -193,4 +199,4 @@ Os seguintes repositórios não seguem o padrão de nomenclatura estabelecido:
 
 ---
 
-*Última atualização: 20/10/2025 às 03:47:45 UTC*
+*Última atualização: 27/10/2025 às 03:51:25 UTC*
