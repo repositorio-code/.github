@@ -12,6 +12,9 @@ Exemplo: `2025.1_DEC0021_Monitoramento-Zabbix-ESP32`
 
 ### DEC0013
 
+- **[Simulador Fluidos](https://github.com/repositorio-code/2025.2_DEC0013_SIMULADOR-FLUIDOS)** (`2025.2_DEC0013_SIMULADOR-FLUIDOS`)
+  Nenhuma descrição fornecida.
+
 - **[Estacao Meteorologica](https://github.com/repositorio-code/2025.2_DEC0013_ESTACAO-METEOROLOGICA)** (`2025.2_DEC0013_ESTACAO-METEOROLOGICA`)
   Nenhuma descrição fornecida.
 
@@ -199,4 +202,4 @@ Os seguintes repositórios não seguem o padrão de nomenclatura estabelecido:
 
 ---
 
-*Última atualização: 27/10/2025 às 03:51:25 UTC*
+*Última atualização: 03/11/2025 às 03:50:10 UTC*
