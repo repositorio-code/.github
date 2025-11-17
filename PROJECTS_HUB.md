@@ -102,6 +102,9 @@ Exemplo: `2025.1_DEC0021_Monitoramento-Zabbix-ESP32`
 - **[Biodigestor](https://github.com/repositorio-code/2024.1_DEC0021_biodigestor)** (`2024.1_DEC0021_biodigestor`)
   Nenhuma descrição fornecida.
 
+- **[Monitoramento De Carga_Ina219](https://github.com/repositorio-code/2024.1_DEC0021_Monitoramento-de-Carga_INA219)** (`2024.1_DEC0021_Monitoramento-de-Carga_INA219`)
+  2024.1 - Monitoramento-de-Carga_INA219
+
 - **[Lorawan Iluminacao Publica](https://github.com/repositorio-code/2024.1_DEC0021_LORAWAN-ILUMINACAO-PUBLICA)** (`2024.1_DEC0021_LORAWAN-ILUMINACAO-PUBLICA`)
   Nenhuma descrição fornecida.
 
@@ -192,14 +195,16 @@ Os seguintes repositórios não seguem o padrão de nomenclatura estabelecido:
 
 - `.github`
 - `.github-private`
+- `2019.2---SmartPlug-Tomada-Inteligente-IoT`
 - `DATASHEETS`
 - `ROADMAPS`
 - `Repositorio-UFSC-Ararangua`
 - `demo-repository`
+- `fork-estufa-secagem-de-madeira`
 - `template-hardware`
 - `template-software`
 
 
 ---
 
-*Última atualização: 10/11/2025 às 03:50:28 UTC*
+*Última atualização: 17/11/2025 às 03:48:53 UTC*
