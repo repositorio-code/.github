@@ -193,6 +193,7 @@ Exemplo: `2025.1_DEC0021_Monitoramento-Zabbix-ESP32`
 
 Os seguintes repositórios não seguem o padrão de nomenclatura estabelecido:
 
+- `-2025.2-_-DEC0021-_-Deteccao-de-Anomalias-em-Helices-de-VANTs-com-Edge-AI-`
 - `.github`
 - `.github-private`
 - `2019.2---SmartPlug-Tomada-Inteligente-IoT`
@@ -207,4 +208,4 @@ Os seguintes repositórios não seguem o padrão de nomenclatura estabelecido:
 
 ---
 
-*Última atualização: 17/11/2025 às 03:48:53 UTC*
+*Última atualização: 24/11/2025 às 03:56:11 UTC*
