@@ -13,9 +13,12 @@ Exemplo: `2025.1_DEC0021_Monitoramento-Zabbix-ESP32`
 ### DEC0013
 
 - **[Simulador Fluidos](https://github.com/repositorio-code/2025.2_DEC0013_SIMULADOR-FLUIDOS)** (`2025.2_DEC0013_SIMULADOR-FLUIDOS`)
-  Nenhuma descrição fornecida.
+  Simulador web interativo para análise de escoamento em tubulações com cálculos de Reynolds, Darcy-Weisbach, perdas de carga e simulações paramétricas.
 
 - **[Estacao Meteorologica](https://github.com/repositorio-code/2025.2_DEC0013_ESTACAO-METEOROLOGICA)** (`2025.2_DEC0013_ESTACAO-METEOROLOGICA`)
+  Nenhuma descrição fornecida.
+
+- **[Analise_Biomecanica](https://github.com/repositorio-code/2025.2_DEC0013_ANALISE_BIOMECANICA)** (`2025.2_DEC0013_ANALISE_BIOMECANICA`)
   Nenhuma descrição fornecida.
 
 
@@ -198,6 +201,8 @@ Os seguintes repositórios não seguem o padrão de nomenclatura estabelecido:
 - `.github-private`
 - `2019.2---SmartPlug-Tomada-Inteligente-IoT`
 - `DATASHEETS`
+- `Empenhos`
+- `Projeto-Integrador-1-UFSC-2025.2-`
 - `ROADMAPS`
 - `Repositorio-UFSC-Ararangua`
 - `demo-repository`
@@ -208,4 +213,4 @@ Os seguintes repositórios não seguem o padrão de nomenclatura estabelecido:
 
 ---
 
-*Última atualização: 24/11/2025 às 03:56:11 UTC*
+*Última atualização: 01/12/2025 às 04:10:11 UTC*
