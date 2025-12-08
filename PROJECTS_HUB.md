@@ -15,14 +15,23 @@ Exemplo: `2025.1_DEC0021_Monitoramento-Zabbix-ESP32`
 - **[Simulador Fluidos](https://github.com/repositorio-code/2025.2_DEC0013_SIMULADOR-FLUIDOS)** (`2025.2_DEC0013_SIMULADOR-FLUIDOS`)
   Simulador web interativo para análise de escoamento em tubulações com cálculos de Reynolds, Darcy-Weisbach, perdas de carga e simulações paramétricas.
 
+- **[Mobilize Bodymodel](https://github.com/repositorio-code/2025.2_DEC0013_Mobilize-BodyModel)** (`2025.2_DEC0013_Mobilize-BodyModel`)
+  Projeto de Sistemas Ubíquos e Embarcados
+
 - **[Estacao Meteorologica](https://github.com/repositorio-code/2025.2_DEC0013_ESTACAO-METEOROLOGICA)** (`2025.2_DEC0013_ESTACAO-METEOROLOGICA`)
   Nenhuma descrição fornecida.
 
-- **[Analise_Biomecanica](https://github.com/repositorio-code/2025.2_DEC0013_ANALISE_BIOMECANICA)** (`2025.2_DEC0013_ANALISE_BIOMECANICA`)
+- **[Avaliacao Sarcopenia](https://github.com/repositorio-code/2025.2_DEC0013_AVALIACAO-SARCOPENIA)** (`2025.2_DEC0013_AVALIACAO-SARCOPENIA`)
   Nenhuma descrição fornecida.
+
+- **[Analise_Biomecanica](https://github.com/repositorio-code/2025.2_DEC0013_ANALISE_BIOMECANICA)** (`2025.2_DEC0013_ANALISE_BIOMECANICA`)
+  Aplicação desktop para análise biomecânica remota via Visão Computacional, integrando Google Colab (Backend com GPU T4) e Interface Desktop (Frontend PyQt5). 
 
 
 ### DEC0021
+
+- **[Xlsx Para Docx](https://github.com/repositorio-code/2025.2_DEC0021_XLSX-PARA-DOCX)** (`2025.2_DEC0021_XLSX-PARA-DOCX`)
+  Automação local de XLSX para DOCX com n8n e DocxTemplater. Inclui GUI em Python para gerenciar Docker, enviar planilhas e recuperar documentos, simplificando workflows para usuários não técnicos. Projeto Final de Projeto de Sistemas Ubíquos e Embarcados (DEC0021).
 
 - **[Agentes Autonomos Embarcados](https://github.com/repositorio-code/2025.2_DEC0021_AGENTES-AUTONOMOS-EMBARCADOS)** (`2025.2_DEC0021_AGENTES-AUTONOMOS-EMBARCADOS`)
   Avanços na área de AIoT abrem oportunidade para o desenvolvimento de aplicações capazes de tomar decisões na borda, protegendo dados e contextos sensíveis. Este repositório apresenta uma proposta de arquitetura de um sistema multi-agentes embarcados em ESP32, um microcontrolador com reconhecidas restrições de recursos.
@@ -213,4 +222,4 @@ Os seguintes repositórios não seguem o padrão de nomenclatura estabelecido:
 
 ---
 
-*Última atualização: 01/12/2025 às 04:10:11 UTC*
+*Última atualização: 08/12/2025 às 03:54:56 UTC*
