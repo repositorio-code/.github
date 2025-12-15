@@ -18,6 +18,9 @@ Exemplo: `2025.1_DEC0021_Monitoramento-Zabbix-ESP32`
 - **[Mobilize Bodymodel](https://github.com/repositorio-code/2025.2_DEC0013_Mobilize-BodyModel)** (`2025.2_DEC0013_Mobilize-BodyModel`)
   Projeto de Sistemas Ubíquos e Embarcados
 
+- **[Leitor_Rfid_R200](https://github.com/repositorio-code/2025.2_DEC0013_LEITOR_RFID_R200)** (`2025.2_DEC0013_LEITOR_RFID_R200`)
+  Nenhuma descrição fornecida.
+
 - **[Estacao Meteorologica](https://github.com/repositorio-code/2025.2_DEC0013_ESTACAO-METEOROLOGICA)** (`2025.2_DEC0013_ESTACAO-METEOROLOGICA`)
   Nenhuma descrição fornecida.
 
@@ -26,6 +29,9 @@ Exemplo: `2025.1_DEC0021_Monitoramento-Zabbix-ESP32`
 
 - **[Analise_Biomecanica](https://github.com/repositorio-code/2025.2_DEC0013_ANALISE_BIOMECANICA)** (`2025.2_DEC0013_ANALISE_BIOMECANICA`)
   Aplicação desktop para análise biomecânica remota via Visão Computacional, integrando Google Colab (Backend com GPU T4) e Interface Desktop (Frontend PyQt5). 
+
+- **[Analise Fluviometrica](https://github.com/repositorio-code/2025.2_DEC0013_ANALISE-FLUVIOMETRICA)** (`2025.2_DEC0013_ANALISE-FLUVIOMETRICA`)
+  "Sistema de Análise Fluviométrica" is a desktop application developed with Electron and React for hydrological data analysis. It allows users to process fluviometric station data, perform statistical calculations and visualize streamflow data through an interactive interface.
 
 
 ### DEC0021
@@ -222,4 +228,4 @@ Os seguintes repositórios não seguem o padrão de nomenclatura estabelecido:
 
 ---
 
-*Última atualização: 08/12/2025 às 03:54:56 UTC*
+*Última atualização: 15/12/2025 às 04:04:05 UTC*
